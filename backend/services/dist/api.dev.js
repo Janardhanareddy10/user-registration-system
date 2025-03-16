@@ -9,7 +9,7 @@ var _axios = _interopRequireDefault(require("axios"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var API_URL = "http://localhost:5000/api"; // Change this if using a different server
+var API_URL = "http://54.123.45.67/api"; // Change this if using a different server
 
 var createUser = function createUser(userData) {
   return regeneratorRuntime.async(function createUser$(_context) {

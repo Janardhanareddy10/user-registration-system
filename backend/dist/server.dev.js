@@ -68,7 +68,7 @@ var connectDB = function connectDB() {
 
 
 var PORT = process.env.PORT || 5000;
-app.listen(PORT, function _callee() {
+app.listen(PORT, "0.0.0.0", function _callee() {
   return regeneratorRuntime.async(function _callee$(_context2) {
     while (1) {
       switch (_context2.prev = _context2.next) {

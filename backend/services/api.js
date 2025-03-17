@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://54.123.45.67/api"; // Change this if using a different server
+const API_URL = "http://localhost:5000/api"; // Change this if using a different server
 
 export const createUser = async (userData) => {
   return axios.post(`${API_URL}/users`, userData);
